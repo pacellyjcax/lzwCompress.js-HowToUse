@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- All imports used by the DocXTemplater -->
+	<script src="bower_components/lzwCompress.js/lzwCompress.js"></script>
+</head>
+<body>
+
+Open the Console log !!
+
+</body>
+<script type="text/javascript">
+
+
+	var bigOBJ = "";
+
+	var lzwCompress = window.lzwCompress;
+	console.log(bigOBJ.length);
+	// To compress anything from within JS
+	var compressed = lzwCompress.pack(bigOBJ);
+	console.log(compressed.length);
+	// And to decompress it
+	var original = lzwCompress.unpack(compressed);
+	console.log(original.length);
+	console.log(bigOBJ == original);
+</script>
+</html>

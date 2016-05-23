@@ -1,0 +1,21 @@
+{
+  "name": "lzwCompress.js-HowToUse",
+  "homepage": "https://github.com/pacellyjcax/lzwCompress.js-HowToUse",
+  "authors": [
+    "PacellyJCAX <pacellyjcax@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lzwCompress.js": "lzwcompress#^0.2.2"
+  }
+}
